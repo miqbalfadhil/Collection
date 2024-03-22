@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>daftar_booking</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>14715eb9-d21c-436e-90ef-cf0c46438261</testSuiteGuid>
+   <testCaseLink>
+      <guid>94e40ca3-3e85-41cf-99d2-e6d2894b8fc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>74577cfc-80ab-4b34-9452-687859cf48d2</id>
+         <masked>false</masked>
+         <name>Nomor_Booking</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Pengajuan TB/Pengajuan TB Normal Case</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b0c12cc6-077a-46c3-93b9-91f63fa91925</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/booking_number</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b0c12cc6-077a-46c3-93b9-91f63fa91925</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Nomor_Booking</value>
+         <variableId>74577cfc-80ab-4b34-9452-687859cf48d2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
